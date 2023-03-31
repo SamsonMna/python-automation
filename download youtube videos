@@ -1,0 +1,8 @@
+from pytube import YouTube
+
+link = 'link to your video'
+
+yt = YouTube(link)
+
+yt.streams.first().download()
+# And Done
